@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<!--
+            I am Jessup Rolfs
+            I made this on 1/12/2022
+            for csc1102 at UAT
+            jesrolfs@uat.edu
+        -->
+<!--
+        tagsV1.html - This file tests how to use different tags in html, as well as some beginner javascript functions.
+        The javascript functions tested are document.write() and alert().
+        written by Jessup Rolfs
+        jesrolfs@uat.edu
+    -->
+
+<head>
+    <!--  This is the head, isn't that cool?-->
+    <script src="blastOffCode.js"></script>
+    <script src="playCrapsCode.js"></script>
+    <script src="efficiencyCode.js"></script>
+    <title>
+        Jessup Rolfs UAT SpaceTime Page
+    </title>
+</head>
+
+<body style="background-color: #3f8d47;">
+    <!-- Incredible, a Body-->
+    <img src="UATspaceLogo-1.jpg">
+    <h1>
+        UAT SPACE PROGRAM
+    </h1>
+    <script>
+        //var alertText = "ALERT. Simple, clear, concise, isn't it? Also this is a variable lmao."
+        /*The alert function opens an alert window.
+        The text within the alert window originated inside the parenthesis.
+        You can remember how to spell parenthesis by the members of the family: parent, he, and sis.*/
+
+        //alert(alertText)
+
+        // The document.write prints the text on the main body of the webpage. Why does this work
+        document.write("This is the document and write test. By federal law, you are not permitted to read this.");
+    </script>
+
+    </p>
+    This is a test of the paragraph tags. A paragraph is more than one sentence. This is a paragraph BB.
+    </p>
+   
+    <br>
+    <br>
+    <div id="blastOffText" style="font-size:30px">BlastOff Status will be presented here </div>
+    <br>
+    <button onclick="testCntdown();">
+        Countdown
+    </button>
+    <br>
+    <br>
+    <br>
+    <div id="craps!" style="font-size:30px">Craps!</div>
+    <div id="die1Res">Results for die 1</div>
+    <div id="die2Res">Results for die 2</div>
+    <div id="sumRes">The sum of both dice</div>
+    <div id="crapsRes">Craps Results</div>
+    <div id="crapsWins">Craps Wins: 0</div>
+    <div id="crapsTies">Craps Ties: 0</div>
+    <div id="crapsLosses">Craps Losses: 0</div>
+    <br>
+    <button onclick="playCraps();">Play Craps</button>
+</body>
+
+</html>
